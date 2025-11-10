@@ -1,0 +1,5 @@
+project_id         = "hip-ether-466911-g0"
+region             = "us-central1"
+environment        = "dev"
+topic_name         = "pubsub-topic"
+subscription_name  = "pubsub-subscription"
