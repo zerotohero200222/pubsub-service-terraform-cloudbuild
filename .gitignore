@@ -1,0 +1,15 @@
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Terraform plan outputs
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Ignore tfvars if they contain sensitive data
+# *.tfvars
+# *.tfvars.json
