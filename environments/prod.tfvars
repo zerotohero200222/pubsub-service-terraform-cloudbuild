@@ -1,4 +1,4 @@
-project_id         = "hip-ether-466911-g0"
+project_id         = "eastern-augury-477909-q6"
 region             = "us-central1"
 environment        = "prod"
 topic_name         = "pubsub-topic"
