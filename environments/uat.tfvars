@@ -3,3 +3,6 @@ region             = "us-central1"
 environment        = "uat"
 topic_name         = "pubsub-topic"
 subscription_name  = "pubsub-subscription"
+
+push_endpoint      = "https://dummy-uat.example.com/pubsub"
+
