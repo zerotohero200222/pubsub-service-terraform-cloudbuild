@@ -1,25 +1,30 @@
 variable "project_id" {
-  description = "GCP Project ID"
-  type        = string
+  type = string
 }
 
 variable "region" {
-  description = "GCP region"
-  type        = string
-  default     = "us-central1"
+  type = string
 }
 
 variable "environment" {
-  description = "Deployment environment (dev, uat, prod)"
-  type        = string
+  type = string
 }
 
 variable "topic_name" {
-  description = "Pub/Sub topic name"
-  type        = string
+  type = string
 }
 
 variable "subscription_name" {
-  description = "Pub/Sub subscription name"
-  type        = string
+  type = string
 }
+
+variable "push_endpoint" {
+  type    = string
+  default = "https://dummy-endpoint.example.com/pubsub"
+}
+
+variable "ack_deadline_seconds" {
+  type    = number
+  default = 20
+}
+
